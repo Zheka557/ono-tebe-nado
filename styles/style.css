@@ -1,1 +1,528 @@
 /* место для вашего кода */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+.body {
+    
+    width: 1440px;
+    height: 2844px;
+}
+
+
+.header {
+    
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 92px;
+    margin-left: 51px;
+    margin-right: 49px;
+    color: black;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 30px;
+    position: relative;
+    
+
+}
+ 
+.logo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 148px;
+    height: 105px;
+ }
+
+.header_logo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 148px;
+    height: 105px;
+    z-index: 10;
+    margin-left: -130px;
+    
+}
+
+.header_menu {
+    
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: underline;
+    
+    
+    
+}
+
+.marker {
+    
+    width: 7px;
+    height: 7px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 2px;
+}
+    
+    
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    
+}
+
+
+.background {
+    
+    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+    background-color: black;
+    z-index: -10;
+    height: 757px;
+    margin-top: 96px;
+    filter: brightness(60%);
+    width: 100%;
+    justify-content: stretch;
+    
+    
+}
+
+
+.ono {
+    
+    display: flex;
+    width: 1340px;
+    height: 115px;
+    position: absolute;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin-top: 265px;
+    margin-left: 50px;
+    
+    
+}
+
+.tebe{
+    
+    display: flex;
+    justify-content: center;
+    width: 1340px;
+    height: 100px;
+    position: absolute;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin-top: 380px;
+    
+    
+    
+}
+
+.nado {
+    
+    display: flex;
+    width: 1340px;
+    height: 100px;
+    position: absolute;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 115px */
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    margin-top: 500px;
+    margin-left: 145px;
+    justify-content: right;
+}
+
+span {
+    margin-left: 25px;
+
+}
+
+.span-n {
+
+    margin-right: 25px;    
+}
+
+.about {
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    margin-top: 763px;
+    margin-left: 402px;
+    word-spacing: 25px;
+
+
+}
+
+.button {
+    
+    color: white;
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    padding: 12px 32px;
+    position: absolute;
+    margin-left: 1165px;
+    margin-top: 750px;
+    background-color: transparent;
+    border: 1px white solid;
+
+}
+
+.lots {
+    
+    flex-grow: 1;
+    width: 1340px;
+    height: 579px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1033px;
+    justify-self: center;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+.subtitle {
+    
+    color: black;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    width: 121px;
+    height: 47px;
+    margin-left: 40px; 
+    
+
+}
+.card-1 {
+    
+    background-image: url("\Users\zheka\ono-tebe-nado\images\card-lot-01.jpg");
+    display: block;
+    width: 430px;
+    height: 450px;
+    margin-top: 74px;
+    margin-left: -1400px;
+    padding-top: -25px;
+    position: relative;
+    background: #000;
+    
+}
+
+.card-1 img {
+    
+    opacity: 0.6;
+
+}
+
+.card-2 {
+    display: block;
+    width: 430px;
+    height: 450px;
+    margin-top: 74px;
+    background: #000;
+    
+    
+}
+
+.card-2 img{
+    
+    opacity: 0.6;
+
+}
+
+.card-3 {
+    
+    display: block;
+    width: 430px;
+    height: 450px;
+    margin-top: 74px;
+    background: #000;
+}
+
+.card-3 img{
+    
+    opacity: 0.6;
+
+}
+
+.more {
+   
+    width: 192px;
+    height: 23px;
+    display: flex;
+    align-self: end;
+    margin-right: 1108px;
+    margin-left: -150px; 
+    color: black;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left;
+    text-decoration: underline;
+    
+}
+
+.card-title {
+   
+    width: 350px;
+    height: 52px;
+    text-align: left;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 26.40px;
+    word-wrap: break-word;
+    margin-top: 50px;
+    margin-left: 40px;
+    z-index: 10;
+    
+}
+
+.descript-1 {
+    
+    width: 350px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    justify-content: center;
+    z-index: 10;
+    margin-left: 40px;
+    bottom: 50px;
+    
+}
+
+.descript-2 {
+
+    width: 350px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    justify-content: center;
+    z-index: 10;
+    margin-left: 40px;
+    margin-top: 160px;
+}
+    
+.descript-3 {
+    
+    width: 350px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    justify-content: center;
+    z-index: 10;
+    margin-left: 40px;
+    margin-top: 208px;
+
+}
+
+
+.about-main {
+
+    display: flex;
+    justify-content: space-between;
+    width: 1340px;
+    height: 487px;
+    margin-top: 181px;
+    margin-left: auto;
+    position: relative;
+    
+    
+}
+
+.about-image {
+    
+    width: 240px;
+    height: 240px;
+    margin-left: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.about-image-2 {
+    display: block;
+    width: 148px;
+    height: 114px;
+    position: absolute;
+    z-index: 10;
+    
+    
+}
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.column-1 {
+   
+    display: block;
+    width: 885px;
+    height: 96px;
+    margin-top: 247px;
+    
+    
+}
+
+.column-2 {
+    
+    display: block;
+    width: 885px;
+    height: 119px;
+    margin-top: 25px;
+
+
+}
+
+.about-title {
+    
+    display: block;
+    color: black;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    position: absolute;
+    width: 291px;
+    height: 47px;
+    margin-top: 100px;
+
+}
+
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin-left: 80px;
+    
+    
+
+}
+
+.contacts {
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+.footer-menu {
+    
+   
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10px;
+    
+
+    
+    
+
+
+}
+
+.socials {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    height: 48px;
+    
+    
+}
+
+.socials-image {
+
+    width: 48px;
+    height: 48px;
+    
+    
+    
+    
+
+}
+
+.socials-image-1 {
+    
+    width: 48px;
+    height: 48px;
+    
+
+}
