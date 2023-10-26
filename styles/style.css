@@ -97,7 +97,7 @@
   display: flex;
   width: 1340px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -114,7 +114,7 @@
   width: 1340px;
   height: 100px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -129,7 +129,7 @@
   width: 1340px;
   height: 100px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -152,7 +152,7 @@ span {
 .about {
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -171,7 +171,7 @@ span {
   display: flex;
   color: white;
   font-size: 22px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   word-wrap: break-word;
@@ -195,7 +195,7 @@ span {
 .subtitle {
   color: black;
   font-size: 40px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   word-wrap: break-word;
@@ -265,7 +265,7 @@ span {
   position: absolute;
   color: white;
   font-size: 22px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 700;
   text-decoration: underline;
   text-transform: uppercase;
@@ -279,7 +279,7 @@ span {
   width: 350px;
   color: white;
   font-size: 20px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 400;
   line-height: 24px;
   word-wrap: break-word;
@@ -292,7 +292,7 @@ span {
   width: 350px;
   color: white;
   font-size: 20px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 400;
   line-height: 24px;
   word-wrap: break-word;
@@ -305,7 +305,7 @@ span {
   width: 350px;
   color: white;
   font-size: 20px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 400;
   line-height: 24px;
   word-wrap: break-word;
@@ -347,7 +347,7 @@ span {
 
 .column {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -370,7 +370,7 @@ span {
   display: block;
   color: black;
   font-size: 40px;
-  font-family: Raleway;
+  font-family: Raleway, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   word-wrap: break-word;
