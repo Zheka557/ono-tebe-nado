@@ -29,15 +29,8 @@
     margin-right: 177px;
 }
 
-.header-menu li:first-child {
-    list-style: none;
-    padding-right: 5px;
-    padding-top: 2px;
-}
-
 .header-menu {
     color: #000;
-
     font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -49,7 +42,13 @@
 }
 
 .list-style {
-    padding-left: 3px;
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-top: 2px;
+}
+
+.list-style:first-child {
+    list-style: none;
     padding-right: 4px;
     padding-top: 2px;
 }
@@ -200,8 +199,6 @@
     font-weight: 700;
     text-transform: uppercase;
     word-wrap: break-word;
-    width: 121px;
-    height: 47px;
     margin-left: 40px;
     margin-bottom: 27px;
 }
@@ -217,39 +214,28 @@
     width: 430px;
     list-style: none;
     min-height: 450px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+}
+
+.card {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
 
 .card-1 {
     background-image: url(../images/card-lot-01.jpg);
-    display: flex;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: multiply;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
 }
 
 .card-2 {
     background-image: url(../images/card-lot-02.jpg);
-    display: flex;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: multiply;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
 }
 
 .card-3 {
     background-image: url(../images/card-lot-03.jpg);
-    display: flex;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-blend-mode: multiply;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
 }
 
 .card-link {
@@ -319,11 +305,6 @@
     margin-right: auto;
 }
 
-.about-column-1 {
-    width: 430px;
-    height: auto;
-}
-
 .about-image {
     background-color: black;
     border-radius: 50%;
@@ -344,7 +325,7 @@
 
 .column-2 {
     margin-top: 25px;
-    padding-left: 25px;
+    padding-left: 12px;
     color: #000;
     font-family: Raleway, arial, sans-serif;
     font-size: 20px;
@@ -386,7 +367,7 @@
 .footer-menu {
     color: #000;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -402,7 +383,6 @@
     display: flex;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
 }
 
 .socials-image {
@@ -410,7 +390,3 @@
     height: 48px;
 }
 
-.socials-image-1 {
-    width: 48px;
-    height: 48px;
-}
